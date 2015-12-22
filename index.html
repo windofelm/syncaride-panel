@@ -6,18 +6,23 @@
 
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css"/>
 </head>
-<body>
+<body ng-controller="MainController">
+
+    <div ng-view autoscroll="true">
 
 
+    </div>
 
 </body>
 
 <script type="application/javascript" src="libs/jquery/dist/jquery.min.js"></script>
 <script type="application/javascript" src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 <script type="application/javascript" src="libs/angular/angular.min.js"></script>
+<script type="application/javascript" src="libs/angular-route/angular-route.min.js"></script>
 
 
 <script type="application/javascript" src="root/app.js"></script>
+<script type="application/javascript" src="root/Controllers/MainController.js"></script>
 
 
 </html>
