@@ -18,6 +18,12 @@ app.config(function($routeProvider, $locationProvider){
             controller: "SampleController"
         })
 
+        .when('/UserList', {
+
+            templateUrl: "templates/user-list.html",
+            controller: "UserController"
+        })
+
         .otherwise({
             redirectTo: '/'
         })
